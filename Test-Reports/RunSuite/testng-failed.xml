@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RunSuite]">
+  <parameter name="browserName" value="Firefox"/>
+  <test name="Run_OrganizationTest">
+    <classes>
+      <class name="com.eztrackit.testcases.Run_OrganizationTest"/>
+    </classes>
+  </test> <!-- Run_OrganizationTest -->
+  <test name="Run_OrganizationTest(failed)">
+    <classes>
+      <class name="com.eztrackit.testcases.Run_OrganizationTest">
+        <methods>
+          <include name="testSearchOrganizations"/>
+          <include name="testCreateNewOrganization"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_OrganizationTest -->
+    </classes>
+  </test> <!-- Run_OrganizationTest(failed) -->
+</suite> <!-- Failed suite [RunSuite] -->

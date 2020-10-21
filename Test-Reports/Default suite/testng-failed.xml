@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.eztrackit.pages.LandingPage"/>
+      <class name="com.eztrackit.pages.CreateNewOrganistaionPage"/>
+      <class name="com.eztrackit.testcases.Run_OrganizationTest"/>
+      <class name="com.eztrackit.baseautomation.ActionDriver"/>
+      <class name="com.eztrackit.baseautomation.TestConstants"/>
+      <class name="com.eztrackit.pages.EditOrganizationPage"/>
+      <class name="com.eztrackit.baseautomation.ExcelReaderUtility"/>
+      <class name="com.eztrackit.pages.RegisterPage"/>
+      <class name="com.eztrackit.baseautomation.Utility"/>
+      <class name="com.eztrackit.baseautomation.Base"/>
+      <class name="com.eztrackit.objectrepository.Configuration"/>
+      <class name="com.eztrackit.testcases.Run_ForgotPasswordTest"/>
+      <class name="com.eztrackit.baseautomation.InitProperties"/>
+      <class name="com.eztrackit.pages.LoginPage"/>
+      <class name="com.eztrackit.pages.ForgotPasswordPage"/>
+      <class name="com.eztrackit.testcases.Run_ResetPasswordTest"/>
+      <class name="com.eztrackit.testcases.Run_ValidateMailTest"/>
+      <class name="com.eztrackit.baseautomation.InputInfo"/>
+      <class name="com.eztrackit.testcases.Run_RegisterTest"/>
+      <class name="com.eztrackit.pages.ValidateMailPage"/>
+      <class name="com.eztrackit.baseautomation.CommonMethods"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.eztrackit.testcases.Run_RegisterTest">
+        <methods>
+          <include name="testRegister"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_RegisterTest -->
+      <class name="com.eztrackit.testcases.Run_ForgotPasswordTest">
+        <methods>
+          <include name="testForgotPassword"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_ForgotPasswordTest -->
+      <class name="com.eztrackit.testcases.Run_ResetPasswordTest">
+        <methods>
+          <include name="ValidateForgotPasswordMail"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_ResetPasswordTest -->
+      <class name="com.eztrackit.testcases.Run_OrganizationTest">
+        <methods>
+          <include name="testSearchOrganizations"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_OrganizationTest -->
+      <class name="com.eztrackit.testcases.Run_ValidateMailTest">
+        <methods>
+          <include name="testValidateMail"/>
+        </methods>
+      </class> <!-- com.eztrackit.testcases.Run_ValidateMailTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

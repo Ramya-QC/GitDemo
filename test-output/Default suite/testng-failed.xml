@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tradeleaves.backoffice.testcases.companyverification.Run_BuyerCompanyVerificationTest">
+        <methods>
+          <include name="testCompanyVerification"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="Initialize"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tradeleaves.backoffice.testcases.companyverification.Run_BuyerCompanyVerificationTest -->
+      <class name="com.tradeleaves.marketplace.testcases.businessflow.Run_SupplierFlowTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testSupplierFlow"/>
+          <include name="setUp"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.businessflow.Run_SupplierFlowTest -->
+      <class name="com.tradeleaves.backoffice.testcases.productverification.Run_ProductVerificationTest">
+        <methods>
+          <include name="Initialize"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="setUp"/>
+          <include name="testProductVerification"/>
+        </methods>
+      </class> <!-- com.tradeleaves.backoffice.testcases.productverification.Run_ProductVerificationTest -->
+      <class name="com.tradeleaves.backoffice.testcases.companyverification.Run_CompanyVerificationTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testCompanyVerification"/>
+          <include name="Initialize"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tradeleaves.backoffice.testcases.companyverification.Run_CompanyVerificationTest -->
+      <class name="com.tradeleaves.marketplace.testcases.businessflow.Run_BuyerFlowTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testBuyerFlow"/>
+          <include name="setUp"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.businessflow.Run_BuyerFlowTest -->
+      <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckTest">
+        <methods>
+          <include name="testUICheckOnPage"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="Initialize"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

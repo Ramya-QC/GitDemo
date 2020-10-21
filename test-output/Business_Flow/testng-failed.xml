@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Business_Flow]">
+  <parameter name="browserName" value="Chrome"/>
+  <test name="Test UI text changes, changed font styles, alignements in company reg page(failed)">
+    <classes>
+      <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg">
+        <methods>
+          <include name="testUICheckOnPage"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg -->
+    </classes>
+  </test> <!-- Test UI text changes, changed font styles, alignements in company reg page(failed) -->
+</suite> <!-- Failed suite [Business_Flow] -->

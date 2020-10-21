@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MarketPlaceApplication]">
+  <parameter name="browserName" value="Chrome"/>
+  <test name="Test Quick registration(failed)">
+    <classes>
+      <class name="com.tradeleaves.marketplace.testcases.userregistration.Run_RegisterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testRegister"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.userregistration.Run_RegisterTest -->
+    </classes>
+  </test> <!-- Test Quick registration(failed) -->
+</suite> <!-- Failed suite [MarketPlaceApplication] -->

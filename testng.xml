@@ -1,0 +1,81 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Use these names in place of Parameter value to open the desired browser(Firefox, InternetExplorer and Chrome)-->
+
+<suite name="Business_Flow">
+
+
+
+ <!--  <parameter name = "browserName" value = "Chrome"/>
+ <test name="Test UI text changes, changed font styles, alignements">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckTest"></class>  
+    </classes>
+</test> -->
+
+ <parameter name = "browserName" value = "Chrome"/>
+ <test name="Test UI text changes, changed font styles, alignements">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_SupplierFlow"></class>  
+    </classes>
+</test> 
+
+<parameter name = "browserName" value = "Chrome"/>
+ <test name="Test UI text changes, changed font styles, alignements">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnStaticPages"></class>  
+    </classes>
+</test> 
+
+<parameter name = "browserName" value = "Chrome"/>
+ <test name="Test UI text changes, changed font styles, alignements in company reg page">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg"></class>  
+    </classes>
+</test> -->
+
+
+
+
+
+
+ 
+  <parameter name = "browserName" value = "Chrome"/>
+ <test name="Test Supplier Flow">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.businessflow.Run_SupplierFlowTest"></class>  
+    </classes>
+</test>
+ 
+<!-- 
+<test name="Test supplier Company verification">
+    <classes>
+        <class name="com.tradeleaves.backoffice.testcases.companyverification.Run_CompanyVerificationTest"></class>  
+    </classes>
+</test> 
+
+
+<parameter name = "browserName" value = "Chrome"/>
+ <test name="Test supplier Product verification">
+    <classes>
+        <class name="com.tradeleaves.backoffice.testcases.productverification.Run_ProductVerificationTest"></class>  
+    </classes>
+</test>
+ 
+
+<parameter name = "browserName" value = "Chrome"/>
+ <test name="Test Buyer business flow">
+    <classes>
+        <class name="com.tradeleaves.marketplace.testcases.businessflow.Run_BuyerFlowTest"></class>  
+    </classes>
+</test> 
+
+<parameter name = "browserName" value = "Chrome"/>
+<test name="Test Buyer Company verification">
+    <classes>
+        <class name="com.tradeleaves.backoffice.testcases.companyverification.Run_BuyerCompanyVerificationTest"></class>  
+    </classes>
+</test> 
+-->
+
+</suite>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Supplier_BusinessFlow]">
+  <parameter name="browserName" value="Chrome"/>
+  <test name="Test Supplier Flow(failed)">
+    <classes>
+      <class name="com.tradeleaves.marketplace.testcases.businessflow.Run_SupplierFlowTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testSupplierFlow"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.tradeleaves.marketplace.testcases.businessflow.Run_SupplierFlowTest -->
+    </classes>
+  </test> <!-- Test Supplier Flow(failed) -->
+</suite> <!-- Failed suite [Supplier_BusinessFlow] -->

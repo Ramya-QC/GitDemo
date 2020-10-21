@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Business_Flow" duration-ms="32855" started-at="2018-10-30T05:14:47Z" finished-at="2018-10-30T05:15:20Z">
+    <groups>
+    </groups>
+    <test name="Test UI text changes, changed font styles, alignements in company reg page" duration-ms="32855" started-at="2018-10-30T05:14:47Z" finished-at="2018-10-30T05:15:20Z">
+      <class name="com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06]" name="setUp" is-config="true" duration-ms="6328" started-at="2018-10-30T10:44:47Z" finished-at="2018-10-30T10:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Initialize()[pri:1, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06]" name="Initialize" duration-ms="19" started-at="2018-10-30T10:44:54Z" finished-at="2018-10-30T10:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-30T10:44:54Z" finished-at="2018-10-30T10:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Initialize status=SUCCESS method=Run_UICheckOnComreg.Initialize()[pri:1, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="FAIL" signature="testUICheckOnPage()[pri:2, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06]" name="testUICheckOnPage" duration-ms="26066" started-at="2018-10-30T10:44:54Z" finished-at="2018-10-30T10:45:20Z">
+          <exception class="com.applitools.eyes.NewTestException">
+            <message>
+              <![CDATA['TradeLeaves-Company registration page1) Windows:8.1, 
+2) Screen Resolution:1440x804)' of 'TradeLeaves'. Please approve the new baseline at https://eyes.applitools.com/app/batches/00000251861424285507/00000251861424285304?accountId=EMQbb8FtqkunUI3iJDFGUw~~]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.applitools.eyes.NewTestException: 'TradeLeaves-Company registration page1) Windows:8.1, 
+2) Screen Resolution:1440x804)' of 'TradeLeaves'. Please approve the new baseline at https://eyes.applitools.com/app/batches/00000251861424285507/00000251861424285304?accountId=EMQbb8FtqkunUI3iJDFGUw~~
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:638)
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:561)
+	at com.tradeleaves.marketplace.utility.Utility.KeywordDataExecution(Utility.java:602)
+	at com.tradeleaves.marketplace.pages.UICheckOnComreg.doUICheckOnComreg(UICheckOnComreg.java:19)
+	at com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg.testUICheckOnPage(Run_UICheckOnComreg.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.applitools.eyes.NewTestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUICheckOnPage -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06]" name="takeScreenShotOnFailure" is-config="true" duration-ms="418" started-at="2018-10-30T10:45:20Z" finished-at="2018-10-30T10:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUICheckOnPage status=FAILURE method=Run_UICheckOnComreg.testUICheckOnPage()[pri:2, instance:com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg@1f554b06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.tradeleaves.marketplace.testcases.uicheckonpages.Run_UICheckOnComreg -->
+    </test> <!-- Test UI text changes, changed font styles, alignements in company reg page -->
+  </suite> <!-- Business_Flow -->
+</testng-results>
